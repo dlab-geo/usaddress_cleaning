@@ -2,7 +2,7 @@
 Scripts to clean file of addresses using the `usaddress` library. See: https://parserator.datamade.us/usaddress
 
 
-This repo contains a python notebook for cleaning US addresses before submitting them to a geocoder. This is not a trivial task and this is not a perfect script. But for me it has handled some pretty nasty data and made it so that these poorly formatted addresses do not cause the geocoder to crash.
+This repo contains a python notebook for cleaning US addresses before submitting them to a geocoder. This is not a trivial task and this is not a perfect script. But for me it has handled some pretty nasty data and made it so that these poorly formatted addresses did not cause the ESRI geocoder to crash.
 
 
 Once your address data are cleaned you can submit to a geocoding service (if the data are not confidential) or geocode offline on your local/secure computer.
